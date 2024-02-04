@@ -9,10 +9,10 @@ import ContentWrapper from "../../../components/Content-Wrapper/ContentWrapper.j
 import UseFetchData from "../../../Hooks/UseFetch.jsx";
 import Genre from "../../../components/Genres/Genre.jsx";
 import CircleRating from "../../../components/CircleRating/Circle.jsx";
-import Img from "../../../components/LazyLoader_img/img.jsx";
+import Img from "../../../components/LazyLoader_img/Img.jsx";
 import PosterFallback from "../../../assets/no-poster.png";
 import { PlayIcon } from "./Playbtn.jsx";
-import VideoPopup from "../../../components/VideoPopUp/VideoPopUp.jsx";
+import VideoPopup from "../../../components/videoPopUp/VideoPopUp.jsx";
 
 const DetailsBanner = ({ video = [], crew = [] }) => {
     const [show, setShow]=useState(false)

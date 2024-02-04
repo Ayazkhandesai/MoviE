@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 import ContentWrapper from '../../../components/Content-Wrapper/ContentWrapper'
 import UseFetchData from '../../../Hooks/UseFetch'
-import SwitchTabs from '../../../components/SwithTabs/SwithTabs'
+import SwitchTabs from '../../../components/swithTabs/SwithTabs'
 import '../style.scss'
-import Carousel from '../../../components/Carousel/Carousel'
+import Carousel from '../../../components/carousel/Carousel'
 
 function TopRated() {
     const [endpoint, setEndPoint] = useState("movie")
