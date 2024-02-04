@@ -5,7 +5,7 @@ import Select from "react-select";
 
 import "./style.scss";
 
-import UseFetchData from "../../Hooks/UseFetch";
+import UseFetchData from "../../hooks/UseFetch";
 import { fetchDataFromAPI } from "../../utils/api";
 import ContentWrapper from "../../components/Content-Wrapper/ContentWrapper";
 import MovieCard from "../../components/movieCard/MovieCard";
