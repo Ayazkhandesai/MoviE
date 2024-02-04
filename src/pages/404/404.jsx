@@ -1,11 +1,17 @@
 import React from 'react'
 
-const D404 = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+import "./style.scss";
 
+import ContentWrapper from '../../components/Content-Wrapper/ContentWrapper';
+
+const D404 = () => {
+    return (
+        <div className="pageNotFound">
+            <ContentWrapper>
+                <span className="bigText">404</span>
+                <span className="smallText">Page not found!</span>
+            </ContentWrapper>
+        </div>
+    );
+};
 export default D404
