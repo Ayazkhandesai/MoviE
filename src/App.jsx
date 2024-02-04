@@ -5,12 +5,12 @@ import { getAPIConfiguration, getGeners } from './Store/homeslice'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import D404 from './pages/404/404'
-import Details from './pages/Details/Details'
-import Explore from './pages/Explore/Explore'
+import Details from './pages/details/Details'
+import Explore from './pages/explore/Explore'
 import Home from './pages/Home/Home'
-import SearchResult from './pages/SearchResult/SearchResult'
-import Header from "./components/Header/Header"
-import Footer from './components/Footer/Footer'
+import SearchResult from './pages/searchResult/SearchResult'
+import Header from "./components/header/Header"
+import Footer from './components/footer/Footer'
 
 
 function App() {
