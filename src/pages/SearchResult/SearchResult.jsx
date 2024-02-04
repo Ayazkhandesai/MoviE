@@ -7,9 +7,9 @@ import './style.scss'
 
 import { fetchDataFromAPI } from '../../utils/api'
 import ContentWrapper from '../../components/Content-Wrapper/ContentWrapper'
-import Spinner from '../../components/Spinner/Spinner/'
+import Spinner from '../../components/spinner/Spinner'
 import noResults from "../../assets/noResults.png"
-import MovieCard from '../../components/MovieCard/MovieCard'
+import MovieCard from '../../components/movieCard/MovieCard'
 const SearchResult = () => {
   const [data, setData] = useState(null);
   const [pageNum, setPageNum] = useState(1);

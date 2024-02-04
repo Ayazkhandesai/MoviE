@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import './style.scss'
-import UseFetchData from '../../../Hooks/useFetch'
+import UseFetchData from '../../../Hooks/UseFetch'
 import { useSelector } from 'react-redux'
 import Img from '../../../components/LazyLoader_img/img'
 import ContentWrapper from '../../../components/Content-Wrapper/ContentWrapper'

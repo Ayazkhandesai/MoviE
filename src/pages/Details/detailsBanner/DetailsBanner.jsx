@@ -6,7 +6,7 @@ import dayjs from "dayjs";
 import "./style.scss";
 
 import ContentWrapper from "../../../components/Content-Wrapper/ContentWrapper.jsx";
-import UseFetchData from "../../../Hooks/useFetch.jsx";
+import UseFetchData from "../../../Hooks/UseFetch.jsx";
 import Genre from "../../../components/Genres/Genre.jsx";
 import CircleRating from "../../../components/CircleRating/Circle.jsx";
 import Img from "../../../components/LazyLoader_img/img.jsx";

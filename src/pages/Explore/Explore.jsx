@@ -5,10 +5,10 @@ import Select from "react-select";
 
 import "./style.scss";
 
-import UseFetchData from "../../hooks/useFetch/";
+import UseFetchData from "../../Hooks/UseFetch";
 import { fetchDataFromAPI } from "../../utils/api";
 import ContentWrapper from "../../components/Content-Wrapper/ContentWrapper";
-import MovieCard from "../../components/movieCard/MovieCard/";
+import MovieCard from "../../components/movieCard/MovieCard";
 import Spinner from "../../components/spinner/Spinner";
 
 let filters = {};

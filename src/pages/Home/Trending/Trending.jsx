@@ -4,7 +4,7 @@ import Carousel from '../../../components/Carousel/Carousel'
 import ContentWrapper from '../../../components/Content-Wrapper/ContentWrapper'
 import SwitchTabs from '../../../components/SwithTabs/SwithTabs'
 
-import UseFetchData from '../../../Hooks/useFetch'
+import UseFetchData from '../../../Hooks/UseFetch'
 
 const Trending = () => {
     const [endpoint, setEndpoint] = useState("day");
