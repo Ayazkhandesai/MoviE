@@ -1,0 +1,14 @@
+@import '../../../mixins.scss';
+
+.genres {
+    display: flex;
+    gap: 5px;
+    .genre {
+        display: flex;
+        justify-content: space-around;
+        background: var(--pink);
+        padding: 6px;
+        border-radius: 30px;
+        color: rgb(215, 177, 177);
+    }
+}
